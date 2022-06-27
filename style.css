@@ -29,6 +29,7 @@ body {
     display: flex;
     flex-grow: 1;
     align-items: center;
+    gap: 36px;
 }
 
 .intro>img {
@@ -71,14 +72,16 @@ ul {
     font-weight: 800;
     color: #1f2937;
     margin-bottom: 32px;
+    text-align: center;
 }
 .small-pics {
-    display:flex;
-    width: 100%;   
+    display:flex; 
     text-align: center;
     align-items: center;
-    justify-content: space-evenly;
-    
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0px 50px;
 }
 
 .pic-text {
@@ -86,7 +89,6 @@ ul {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    max-width: 20%;
 }
 
 .aspect-ratio-box img{
@@ -98,7 +100,7 @@ ul {
 }
 
 div.pic-text>p {
-    width: 75%
+    width: 50%
 }
 
 .section3 {
@@ -129,7 +131,7 @@ div.pic-text>p {
 
 .section4 {
     display:flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background-color: #3882f6;
     color: #f9faf8;
